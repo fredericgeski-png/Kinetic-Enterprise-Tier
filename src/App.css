@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #e2e8f0;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #94a3b8;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #cbd5e1;
+  margin-top: 1.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #94a3b8;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.info-section {
+  background: rgba(30, 41, 59, 0.6);
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-top: 2rem;
+  max-width: 800px;
+  backdrop-filter: blur(10px);
+}
+
+.features {
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: #cbd5e1;
+  font-size: 1rem;
+}
+
+.features li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #4ade80;
+  font-weight: bold;
+}
+
+.note {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid #3b82f6;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #93c5fd;
+}
